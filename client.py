@@ -1,5 +1,3 @@
-  GNU nano 2.9.3                                                                   client.py                                                                             
-
 import socket
 c=socket.socket()
 c.connect(('localhost',9922))
