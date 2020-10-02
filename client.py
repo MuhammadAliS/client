@@ -1,6 +1,6 @@
 import socket
-c=socket.socket()
-c.connect(('localhost',9922))
+c=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+c.connect(('Enter IP here',9922))
 print("Connected to the network")
 print(c.recv(1024).decode())
 username=input("Enter a username:")
